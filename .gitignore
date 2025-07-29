@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtualenv
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Django
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+*.pot
+*.pyc
+*.mo
+
+# Django Migrations (optional: uncomment to ignore migrations)
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Linux
+*~ 
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Git
+*.swp
+*.swo
+.git/
+
+# dotenv
+.env
+.env.*
+
+# Node (if using frontend tools)
+node_modules/
+package-lock.json
+yarn.lock
